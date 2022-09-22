@@ -30,7 +30,7 @@ console.log(repos[0])
     <>
     {loading && <Loading/>}
     {!loading && 
-    <Tilt  glareEnable={true} glareBorderRadius='1rem'>
+    <Tilt>
     <div className='contain h-[190px] p-4 w-[370px] flex items-center justify-center relative rounded-2xl flex-col bg-gradient-to-tr from-gray-500 to-white opacity-80 hover:opacity-100 shadow-2xl hover:h-[450px] duration-200 border-opacity-50 border-2 border-black border-t-0 border-l-0'>
     <h1 className='name pt-10 text-2xl tracking-wide duration-200'>{data.name}</h1>
     <img className='w-[150px] h-[150px] absolute bg-black/40 rounded-full shadow-4xl shadow-black/70 object-cover overflow-hidden -translate-y-24 duration-200' src={data.avatar_url} alt={data.login} />
