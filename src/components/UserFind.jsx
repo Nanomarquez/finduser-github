@@ -52,7 +52,7 @@ console.log(repos[0])
         ))}
       </ol>
     </div>
-    <div className='links hidden absolute'> <a href="/"><img src="https://cdn.icon-icons.com/icons2/2717/PNG/512/arrow_bend_up_left_icon_174118.png" alt="" /></a>
+    <div className='links hidden absolute'> <a href="/"><img src="https://cdn.icon-icons.com/icons2/2717/PNG/512/arrow_bend_up_left_icon_174118.png" alt="Arrow" /></a>
     <a href={data.html_url} target='_BLANK'><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" /></a>
 
     </div>
